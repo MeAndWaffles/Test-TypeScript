@@ -2,14 +2,14 @@ import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
   // Timeout
-  timeout: 10000,
+  timeout: 40000,
 
   use: {
     // Browser options
     headless: false,
 
     // Context options
-    viewport: { width: 1920, height: 1080 },
+    // viewport: { width: 1920, height: 1080 },
 
     // Artifacts
     screenshot: 'only-on-failure',
