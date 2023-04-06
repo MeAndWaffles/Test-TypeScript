@@ -13,6 +13,7 @@ export class HomePage {
     }
 
     async goToLoginPage() {
+        await this.page.waitForSelector('a[routerlink="/login"]');
         await this.page.click('a[routerlink="/login"]');
     }
 
