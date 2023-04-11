@@ -17,13 +17,11 @@ To run this project, you need to have Node.js and Visual Studio Code installed o
 - Visual Studio Code: https://code.visualstudio.com/download
 
 After installing Node.js and Visual Studio Code, you can install the project's dependencies by running the following command in your terminal:
+
 ```
 npm install
 
 ```
-
-1. Clone the repository: `git clone https://github.com/MeAndWaffles/Test-TypeScript.git`
-2. Install dependencies: `npm install`
 
 ## Usage
 
